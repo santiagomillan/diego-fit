@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={inter.className}> */}
-      <body className="max-w-screen-xl items-center justify-between mx-auto">
+      <body>
         <Header />
         {children}
       </body>
