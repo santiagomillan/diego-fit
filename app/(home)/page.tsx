@@ -4,6 +4,7 @@ import { HeroBanner } from "../../components/organisms/HeroBanner/HeroBanner";
 import { PricingSection } from "../../components/organisms/PricingSection/PricingSection";
 import { BasicInfo } from "../../components/organisms/BasicInfo/BasicInfo";
 import FAQ from "../../components/organisms/FAQ/FAQ";
+import IgIfrane from "../../components/organisms/IgIframe/IgIframe";
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       {/* <Carousel /> */}
       <div className="max-w-screen-xl items-center justify-between mx-auto">
         <h1>Home</h1>
-        <PricingSection />
         <BasicInfo />
+        <IgIfrane />
+        <PricingSection />
         <FAQ />
       </div>
     </div>
