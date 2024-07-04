@@ -5,6 +5,9 @@ import { PricingSection } from "../../components/organisms/PricingSection/Pricin
 import { BasicInfo } from "../../components/organisms/BasicInfo/BasicInfo";
 import FAQ from "../../components/organisms/FAQ/FAQ";
 import IgIfrane from "../../components/organisms/IgIframe/IgIframe";
+import Benefits from "../../components/organisms/Benefits/Benefits";
+import HoverCardsGrid from "../../components/organisms/HoverCardsGrid/HoverCardsGrid";
+import Footer from "../../components/organisms/Footer/Footer";
 
 export default function Home() {
   return (
@@ -12,12 +15,14 @@ export default function Home() {
       <HeroBanner />
       {/* <Carousel /> */}
       <div className="max-w-screen-xl items-center justify-between mx-auto">
-        <h1>Home</h1>
+        <Benefits />
         <BasicInfo />
+        <HoverCardsGrid />
         <IgIfrane />
         <PricingSection />
         <FAQ />
       </div>
+      <Footer />
     </div>
   );
 }

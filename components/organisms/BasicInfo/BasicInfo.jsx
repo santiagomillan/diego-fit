@@ -1,6 +1,7 @@
 export const BasicInfo = () => {
     return (
-        <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+        // <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+        <div class="flex  items-center justify-center bg-hero  overflow-hidden">
         <div class="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
             <div class="w-full md:w-1/2 lg:pr-32">
                 <h2 class="text-4xl lg:text-5xl text-center md:text-left text-blue-900 leading-tight font-medium">There’s a
