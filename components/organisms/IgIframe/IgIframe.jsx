@@ -1,4 +1,5 @@
 "use client"
+import { Title } from 'app/components/atoms/Title/Title';
 import React, { useEffect } from 'react';
 
 const IgIfrane = () => {
@@ -21,6 +22,8 @@ const IgIfrane = () => {
     }, []);
 
     return (
+        <>
+        <Title title={"Sígueme en Instagram"} subtitle={"Mantente actualizado con mis últimas publicaciones y consejos de entrenamiento."}/>
         <div className="md:flex  md:justify-center lg:justify-center">
         <blockquote
             className="instagram-media"
@@ -45,7 +48,7 @@ const IgIfrane = () => {
                     style={{ background: '#FFFFFF', lineHeight: '0', padding: '0 0', textAlign: 'center', textDecoration: 'none', width: '100%' }}
                     target="_blank"
                     rel="noopener noreferrer"
-                >
+                    >
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                         <div style={{ backgroundColor: '#F4F4F4', borderRadius: '50%', flexGrow: '0', height: '40px', marginRight: '14px', width: '40px' }}></div>
                         <div style={{ display: 'flex', flexDirection: 'column', flexGrow: '1', justifyContent: 'center' }}>
@@ -96,7 +99,7 @@ const IgIfrane = () => {
                         style={{ color: '#c9c8cd', fontFamily: 'Arial,sans-serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 'normal', lineHeight: '17px', textDecoration: 'none' }}
                         target="_blank"
                         rel="noopener noreferrer"
-                    >
+                        >
                         Shared post
                     </a>{' '}
                     on <time style={{ fontFamily: 'Arial,sans-serif', fontSize: '14px', lineHeight: '17px' }}>Time</time>
@@ -104,6 +107,7 @@ const IgIfrane = () => {
             </div>
         </blockquote>
         </div>
+                        </>
     );
 };
 

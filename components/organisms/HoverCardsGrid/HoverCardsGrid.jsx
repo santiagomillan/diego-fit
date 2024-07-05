@@ -1,3 +1,4 @@
+import { Title } from 'app/components/atoms/Title/Title';
 import React from 'react';
 
 export default function HoverCardsGrid() {
@@ -11,6 +12,8 @@ export default function HoverCardsGrid() {
     ];
 
     return (
+        <>
+        <Title title={"Entrenamientos Disponibles"} subtitle={"Explora nuestros diferentes programas de entrenamiento diseñados para cada objetivo."}/>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
             {cards.map((card, index) => (
                 <div key={index} className="relative overflow-hidden rounded-lg shadow-lg">
@@ -22,5 +25,6 @@ export default function HoverCardsGrid() {
                 </div>
             ))}
         </div>
+        </>
     );
 }
