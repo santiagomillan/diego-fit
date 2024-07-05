@@ -33,7 +33,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         1 Website
@@ -42,7 +42,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SSL (HTTPS)
@@ -51,7 +51,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SiteFast Domain
@@ -81,7 +81,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         15 Websites
@@ -90,7 +90,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SSL (HTTPS)
@@ -99,7 +99,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         Custom Domain
@@ -108,7 +108,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SiteFast Branding Removal
@@ -139,7 +139,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         50 Websites
@@ -148,7 +148,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SSL (HTTPS)
@@ -157,7 +157,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         Custom Domain
@@ -167,7 +167,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         SiteFast Branding Removal
@@ -177,7 +177,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         Google Analytics
@@ -186,7 +186,7 @@ export const PricingSection = () => {
     //                     <li className="inline-flex items-center  w-full mb-2 ml-5 font-semibold text-left border-solid">
     //                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6"
     //                             fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    //                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+    //                             <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
     //                             </path>
     //                         </svg>
     //                         Email Integration
@@ -202,165 +202,165 @@ export const PricingSection = () => {
     //         </div>
     //     </div>
     // </section>
-    <section class="bg-gray-900 py-12">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-4xl font-extrabold text-white sm:text-5xl">
+    <section className="bg-gray-900 py-12">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
         Pricing Plans
       </h2>
-      <p class="mt-4 text-xl text-gray-400">
+      <p className="mt-4 text-xl text-gray-400">
         Simple, transparent pricing for your business needs.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
 
-      <div class="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
-        <div class="mb-8">
-          <h3 class="text-2xl font-semibold text-white">Free</h3>
-          <p class="mt-4 text-gray-400">Get started with our basic features.</p>
+      <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+        <div className="mb-8">
+          <h3 className="text-2xl font-semibold text-white">Free</h3>
+          <p className="mt-4 text-gray-400">Get started with our basic features.</p>
         </div>
-        <div class="mb-8">
-          <span class="text-5xl font-extrabold text-white">$0</span>
-          <span class="text-xl font-medium text-gray-400">/mo</span>
+        <div className="mb-8">
+          <span className="text-5xl font-extrabold text-white">$0</span>
+          <span className="text-xl font-medium text-gray-400">/mo</span>
         </div>
-        <ul class="mb-8 space-y-4 text-gray-400">
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        <ul className="mb-8 space-y-4 text-gray-400">
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>1 user account</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>10 transactions per month</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Basic support</span>
           </li>
         </ul>
-        <a href="#" class="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
+        <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
           Sign Up
         </a>
       </div>
 
 
-      <div class="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
-        <div class="mb-8">
-          <h3 class="text-2xl font-semibold text-white">Starter</h3>
-          <p class="mt-4 text-gray-400">Perfect for small businesses and startups.</p>
+      <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+        <div className="mb-8">
+          <h3 className="text-2xl font-semibold text-white">Starter</h3>
+          <p className="mt-4 text-gray-400">Perfect for small businesses and startups.</p>
         </div>
-        <div class="mb-8">
-          <span class="text-5xl font-extrabold text-white">$49</span>
-          <span class="text-xl font-medium text-gray-400">/mo</span>
+        <div className="mb-8">
+          <span className="text-5xl font-extrabold text-white">$49</span>
+          <span className="text-xl font-medium text-gray-400">/mo</span>
         </div>
-        <ul class="mb-8 space-y-4 text-gray-400">
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        <ul className="mb-8 space-y-4 text-gray-400">
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>5 user accounts</span>
           </li>
-           <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+           <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>100 transactions per month</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Standard support</span>
           </li>
         </ul>
-        <a href="#" class="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
+        <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
           Get Started
         </a>
       </div>
 
 
-      <div class="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
-        <div class="mb-8">
-          <h3 class="text-2xl font-semibold text-white">Pro</h3>
-          <p class="mt-4 text-gray-400">Ideal for growing businesses and enterprises.</p>
+      <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+        <div className="mb-8">
+          <h3 className="text-2xl font-semibold text-white">Pro</h3>
+          <p className="mt-4 text-gray-400">Ideal for growing businesses and enterprises.</p>
         </div>
-        <div class="mb-8">
-          <span class="text-5xl font-extrabold text-white">$99</span>
-          <span class="text-xl font-medium text-gray-400">/mo</span>
+        <div className="mb-8">
+          <span className="text-5xl font-extrabold text-white">$99</span>
+          <span className="text-xl font-medium text-gray-400">/mo</span>
         </div>
-        <ul class="mb-8 space-y-4 text-gray-400">
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        <ul className="mb-8 space-y-4 text-gray-400">
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Unlimited user accounts</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Unlimited transactions</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Priority support</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Advanced analytics</span>
           </li>
         </ul>
-        <a href="#" class="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
+        <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
           Get Started
         </a>
       </div>
 
 
-      <div class="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
-        <div class="mb-8">
-          <h3 class="text-2xl font-semibold text-white">Enterprise</h3>
-          <p class="mt-4 text-gray-400">Tailored for large-scale deployments and custom needs.</p>
+      <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+        <div className="mb-8">
+          <h3 className="text-2xl font-semibold text-white">Enterprise</h3>
+          <p className="mt-4 text-gray-400">Tailored for large-scale deployments and custom needs.</p>
         </div>
-        <div class="mb-8">
-          <span class="text-5xl font-extrabold text-white">Custom</span>
+        <div className="mb-8">
+          <span className="text-5xl font-extrabold text-white">Custom</span>
         </div>
-        <ul class="mb-8 space-y-4 text-gray-400">
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+        <ul className="mb-8 space-y-4 text-gray-400">
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Dedicated infrastructure</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Custom integrations</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Dedicated support team</span>
           </li>
-          <li class="flex items-center">
-            <svg class="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          <li className="flex items-center">
+            <svg className="h-6 w-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
             <span>Premium SLAs</span>
           </li>
         </ul>
-        <a href="#" class="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
+        <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600">
           Contact Sales
         </a>
       </div>
