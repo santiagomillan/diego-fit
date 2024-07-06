@@ -12,8 +12,7 @@ const FAQ = () => {
     return (
         <div className="py-24 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
             <div className="flex flex-col text-left basis-1/2">
-                <p className="inline-block font-semibold text-primary mb-4">Insurance FAQ</p>
-                <p className="sm:text-4xl text-3xl font-extrabold text-base-content">Frequently Asked Questions</p>
+                <p className="sm:text-4xl text-3xl font-extrabold text-base-content text-sky-500">Preguntas frecuentes</p>
             </div>
             <ul className="basis-1/2">
                 {faqData.map((faq, index) => (
@@ -23,7 +22,7 @@ const FAQ = () => {
                             aria-expanded={openFAQ === index}
                             onClick={() => toggleFAQ(index)}
                         >
-                            <span className="flex-1 text-base-content">{faq.question}</span>
+                            <span className="flex-1 text-base-content text-sky-500">{faq.question}</span>
                             <svg className="flex-shrink-0 w-4 h-4 ml-auto fill-current" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="7" width="16" height="2" rx="1" className={`transform origin-center transition duration-200 ease-out ${openFAQ === index ? 'rotate-90' : ''}`}></rect>
                                 <rect y="7" width="16" height="2" rx="1" className="transform origin-center rotate-90 transition duration-200 ease-out"></rect>
