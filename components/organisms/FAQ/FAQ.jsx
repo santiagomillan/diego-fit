@@ -48,17 +48,17 @@ const FAQ = () => {
 
 const faqData = [
     {
-        question: 'How secure is my insurance information?',
-        answer: 'We prioritize the security of your insurance information. We use advanced encryption and strict data protection measures to ensure your data is safe and confidential.'
+        question: "¿Qué necesito para empezar el entrenamiento?",
+        answer: "Para comenzar el entrenamiento, necesitarás una consulta inicial para evaluar tu estado físico y definir tus objetivos. Además, es recomendable tener ropa deportiva cómoda, calzado adecuado y una botella de agua para mantenerte hidratado durante las sesiones."
     },
     {
-        question: 'How can I customize my insurance coverage?',
-        answer: 'Our insurance plans are customizable. You can tailor your coverage to meet your specific needs and budget.'
+        question: "¿Cuánto tiempo tomará ver resultados?",
+        answer: "El tiempo para ver resultados puede variar según tu nivel de condición física actual, tus objetivos y la consistencia de tu entrenamiento y dieta. Generalmente, puedes empezar a notar cambios en tu energía y estado físico en unas pocas semanas, con mejoras más significativas en unos pocos meses de entrenamiento regular."
     },
     {
-        question: 'Is there a waiting period for insurance claims?',
-        answer: 'There may be a waiting period for certain insurance claims, depending on the policy terms and conditions. Please refer to your policy documents for details.'
-    }
+        question: "¿Los entrenamientos son adecuados para todos los niveles?",
+        answer: "Sí, los entrenamientos están diseñados para adaptarse a todos los niveles de condición física, desde principiantes hasta avanzados. Cada programa es personalizado para satisfacer tus necesidades y habilidades específicas, asegurando que progreses de manera segura y efectiva."
+    },
 ];
 
 export default FAQ;

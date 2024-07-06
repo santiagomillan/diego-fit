@@ -51,24 +51,25 @@ import { Title } from "../../atoms/Title/Title";
 
 export default function Benefits() {
     const benefits = [
-        {
-            image: "https://images.pexels.com/photos/4944956/pexels-photo-4944956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            headline: "Short headline 1",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            link: "#"
-        },
-        {
-            image: "https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            headline: "Short headline 2",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            link: "#"
-        },
+
         {
             image: "https://images.pexels.com/photos/4944958/pexels-photo-4944958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            headline: "Short headline 3",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            headline: "Entrenamiento Personalizado",
+            description: "Obtén un plan de entrenamiento hecho a tu medida, diseñado para alcanzar tus objetivos específicos de salud y acondicionamiento físico.",
             link: "#"
-        }
+        },
+        {
+            image: "https://images.pexels.com/photos/4944956/pexels-photo-4944956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            headline: "Seguimiento y Soporte Continuo",
+            description: "Recibe seguimiento constante y apoyo motivacional para mantenerte en el camino correcto y asegurar tu progreso.",
+            link: "#"
+        },
+        {
+            image:"https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            headline: "Mejora de Técnica y Prevención de Lesiones",
+            description: "Aprende la forma correcta de realizar ejercicios para maximizar resultados y minimizar el riesgo de lesiones.",
+            link: "#"
+        },
     ];
 
     return (
@@ -84,9 +85,9 @@ export default function Benefits() {
                         <p className="mx-auto text-lg leading-relaxed text-gray-100 font-light">
                             {benefit.description}
                         </p>
-                        <div className="mt-4">
+                        {/* <div className="mt-4">
                             <a href={benefit.link} className="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>
