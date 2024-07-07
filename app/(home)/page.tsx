@@ -8,6 +8,7 @@ import IgIfrane from "../../components/organisms/IgIframe/IgIframe";
 import Benefits from "../../components/organisms/Benefits/Benefits";
 import HoverCardsGrid from "../../components/organisms/HoverCardsGrid/HoverCardsGrid";
 import Footer from "../../components/organisms/Footer/Footer";
+import ContactSection from "../../components/organisms/ContactSection/ContactSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <HoverCardsGrid />
         <IgIfrane />
         <PricingSection />
+        <ContactSection />
         <FAQ />
       </div>
       <Footer />
