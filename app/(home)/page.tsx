@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { Carousel } from "../../components/organisms/Carousel/Carousel";
+// import { Carousel } from "../../components/organisms/Carousel/Carousel";
 import { HeroBanner } from "../../components/organisms/HeroBanner/HeroBanner";
 import { PricingSection } from "../../components/organisms/PricingSection/PricingSection";
 import { BasicInfo } from "../../components/organisms/BasicInfo/BasicInfo";

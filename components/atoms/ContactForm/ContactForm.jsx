@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className="max-w-md mx-auto my-8 p-4 border rounded-md shadow-md">
+    <div className="max-w-md mx-auto md:my-4 p-4 w-full border rounded-md shadow-md">
       <h3 className="text-3xl font-semibold text-center mb-4">Contáctame</h3>
       <form>
         <div className="mb-4">

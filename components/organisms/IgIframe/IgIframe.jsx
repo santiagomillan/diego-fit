@@ -9,8 +9,15 @@ const IgIfrane = () => {
         script.src = 'https://www.instagram.com/embed.js';
         script.async = true;
         script.onload = () => {
+            // if (window.instgrm) {
+            //     window.instgrm.Embeds.process();
+            // }
             if (window.instgrm) {
                 window.instgrm.Embeds.process();
+                const iframes = document.querySelectorAll('iframe.instagram-media');
+                iframes.forEach(iframe => {
+                    iframe.title = 'Instagram post'; // Agregar título a cada iframe
+                });
             }
         };
         document.body.appendChild(script);
@@ -99,6 +106,7 @@ const IgIfrane = () => {
                         style={{ color: '#c9c8cd', fontFamily: 'Arial,sans-serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 'normal', lineHeight: '17px', textDecoration: 'none' }}
                         target="_blank"
                         rel="noopener noreferrer"
+                        loading="lazy" 
                         >
                         Shared post
                     </a>{' '}
