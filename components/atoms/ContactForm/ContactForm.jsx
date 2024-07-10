@@ -108,6 +108,12 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+    const serviceId = process.env.REACT_APP_YOUR_SERVICE_ID;
+    const templateId = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+
+    console.log(serviceId, templateId, userId);
+
     const form = useRef();
     const [formData, setFormData] = useState({
       user_name: '',
