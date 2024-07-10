@@ -108,9 +108,9 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-    const serviceId = process.env.YOUR_SERVICE_ID;
-    const templateId = process.env.YOUR_TEMPLATE_ID;
-    const userId = process.env.YOUR_PUBLIC_KEY;
+    const serviceId = process.env.NEXT_PUBLIC_YOUR_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID;
+    const userId = process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY;
 
     console.log(serviceId, templateId, userId);
 
@@ -156,10 +156,10 @@ const ContactForm = () => {
   
       // Using emailjs.sendForm with sanitized data
       emailjs.sendForm(
-        process.env.YOUR_SERVICE_ID,
-        process.env.YOUR_TEMPLATE_ID,
+        serviceId,
+        templateId,
         form.current,
-        process.env.YOUR_PUBLIC_KEY
+        userId
       )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
