@@ -6,24 +6,39 @@ import FAQ from "../../components/organisms/FAQ/FAQ";
 import IgIfrane from "../../components/organisms/IgIframe/IgIframe";
 import Benefits from "../../components/organisms/Benefits/Benefits";
 import HoverCardsGrid from "../../components/organisms/HoverCardsGrid/HoverCardsGrid";
-import Footer from "../../components/organisms/Footer/Footer";
 import ContactSection from "../../components/organisms/ContactSection/ContactSection";
 
 export default function Home() {
   return (
     <div className="mt-16">
-      <HeroBanner />
+      <section id="inicio">
+        <HeroBanner />
+      </section>
+
       {/* <Carousel /> */}
       <div className="max-w-screen-xl items-center justify-between mx-auto">
-        <Benefits />
-        <BasicInfo />
-        <HoverCardsGrid />
-        <IgIfrane />
-        <PricingSection />
-        <ContactSection />
+        <section id="beneficios">
+          <Benefits />
+        </section>
+        <section id="sobre-mi">
+          <BasicInfo />
+        </section>
+        <section id="entrenamientos">
+          <HoverCardsGrid />
+        </section>
+        <section id="sigueme">
+          <IgIfrane />
+        </section>
+        <section id="planes">
+          <PricingSection />
+        </section>
+
+        <section id="contactame">
+          <ContactSection />
+        </section>
+
         <FAQ />
       </div>
-      <Footer />
     </div>
   );
 }

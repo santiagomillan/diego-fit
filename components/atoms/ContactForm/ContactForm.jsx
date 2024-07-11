@@ -95,7 +95,7 @@ const ContactForm = () => {
           <div className="mb-4">
             <label className="block text-sm font-medium mb-2" htmlFor="user_phone">Teléfono</label>
             <input className="w-full p-2 bg-slate-900 rounded-md" type="tel" name="user_phone" required placeholder="Tu teléfono" value={formData.user_phone} onChange={handleChange} />
-            <small className="text-gray-400">Si el número es de fuera de Colombia, por favor incluye el indicativo del país.</small>
+            <small className="text-gray-400 text-xs">Si el número es de fuera de Colombia, por favor incluye el indicativo del país.</small>
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium mb-2" htmlFor="message">Mensaje</label>
