@@ -29,9 +29,8 @@ export default function Home() {
         <section id="sigueme">
           <IgIfrane />
         </section>
-        <section id="planes">
-          <PricingSection />
-        </section>
+
+        <PricingSection />
 
         <section id="contactame">
           <ContactSection />
