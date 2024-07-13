@@ -85,28 +85,28 @@ import { Title } from "app/components/atoms/Title/Title";
 export const PricingSection = () => {
   const plans = [
     {
-      name: "Free",
+      name: "Clase de cortesia",
       price: "$0",
-      description: "Get started with our basic features.",
-      features: ["1 user account", "10 transactions per month", "Basic support"],
-      linkText: "Sign Up",
+      description: "Inicia con una clase de cortesia.",
+      features: ["1 clase precencial", "2 horas de clase", "Valoracion basica"],
+      linkText: "Agenda ahora",
     },
     {
-      name: "Starter",
+      name: "virtual Starter",
       price: "$49",
       description: "Perfect for small businesses and startups.",
       features: ["5 user accounts", "100 transactions per month", "Standard support"],
       linkText: "Get Started",
     },
     {
-      name: "Pro",
+      name: "Virtual Pro",
       price: "$99",
       description: "Ideal for growing businesses and enterprises.",
       features: ["Unlimited user accounts", "Unlimited transactions", "Priority support", "Advanced analytics"],
       linkText: "Get Started",
     },
     {
-      name: "Enterprise",
+      name: "Presencial",
       price: "Custom",
       description: "Tailored for large-scale deployments and custom needs.",
       features: ["Dedicated infrastructure", "Custom integrations", "Dedicated support team", "Premium SLAs"],
