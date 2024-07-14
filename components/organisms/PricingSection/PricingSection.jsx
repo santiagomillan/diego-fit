@@ -90,27 +90,31 @@ export const PricingSection = () => {
       description: "Inicia con una clase de cortesia.",
       features: ["1 clase precencial", "2 horas de clase", "Valoracion basica"],
       linkText: "Agenda ahora",
+      url: "https://wa.link/vczg76"
     },
     {
       name: "virtual Starter",
       price: "$49",
-      description: "Perfect for small businesses and startups.",
+      description: "Perfecto para dar tus primeros pasos para evolucionar tu cuerpo.",
       features: ["5 user accounts", "100 transactions per month", "Standard support"],
-      linkText: "Get Started",
+      linkText: "Inicia ahora",
+      url: "https://wa.link/3gt6vq"
     },
     {
       name: "Virtual Pro",
       price: "$99",
-      description: "Ideal for growing businesses and enterprises.",
+      description: "Ideal para los gerreros y gurerreras que quieran un camboi total y esten comprometidos con los retos.",
       features: ["Unlimited user accounts", "Unlimited transactions", "Priority support", "Advanced analytics"],
-      linkText: "Get Started",
+      linkText: "Inicia ahora",
+      url: "https://wa.link/3gt6vq"
     },
     {
       name: "Presencial",
       price: "Custom",
-      description: "Tailored for large-scale deployments and custom needs.",
+      description: "Asesoria personalizada con acompañamientos en la sede.",
       features: ["Dedicated infrastructure", "Custom integrations", "Dedicated support team", "Premium SLAs"],
-      linkText: "Contact Sales",
+      linkText: "Inicia ahora",
+      url: "https://wa.link/zgz8ok"
     },
   ];
 
@@ -149,7 +153,9 @@ export const PricingSection = () => {
                 ))}
               </ul>
               <a
-                href="#"
+                href={plan.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
               >
                 {plan.linkText}
