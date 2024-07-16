@@ -86,7 +86,7 @@ export const PricingSection = () => {
   const plans = [
     {
       name: "Clase de cortesia",
-      price: "$0",
+      price: "Gratis",
       description: "Inicia con una clase de cortesia.",
       features: ["1 clase precencial", "2 horas de clase", "Valoracion basica"],
       linkText: "Agenda ahora",
@@ -94,7 +94,7 @@ export const PricingSection = () => {
     },
     {
       name: "virtual Starter",
-      price: "$49",
+      price: "$150.000",
       description: "Perfecto para dar tus primeros pasos para evolucionar tu cuerpo.",
       features: ["5 user accounts", "100 transactions per month", "Standard support"],
       linkText: "Inicia ahora",
@@ -102,7 +102,7 @@ export const PricingSection = () => {
     },
     {
       name: "Virtual Pro",
-      price: "$99",
+      price: "$300.000",
       description: "Ideal para los gerreros y gurerreras que quieran un camboi total y esten comprometidos con los retos.",
       features: ["Unlimited user accounts", "Unlimited transactions", "Priority support", "Advanced analytics"],
       linkText: "Inicia ahora",
@@ -110,7 +110,7 @@ export const PricingSection = () => {
     },
     {
       name: "Presencial",
-      price: "Custom",
+      price: "$500.000",
       description: "Asesoria personalizada con acompañamientos en la sede.",
       features: ["Dedicated infrastructure", "Custom integrations", "Dedicated support team", "Premium SLAs"],
       linkText: "Inicia ahora",
